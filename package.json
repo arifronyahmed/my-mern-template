@@ -1,0 +1,32 @@
+{
+  "name": "my-mern-template",
+  "version": "1.0.0",
+  "description": "express-setup",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "project-setup": "npm i && cd client && npm i",
+    "start": "nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "Arif Ahmed Rony",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "^3.0.3"
+  }
+}
